@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+body {
+  text-size-adjust: 100%;
+  overflow-x: hidden;
+  color: rgb(255, 255, 255);
+  font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+  background: rgb(0, 0, 0);
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+h1,h2 {
+  font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+  font-weight: bolder;
+}
+
+header {
+  text-align: center;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  background-color: #000;
+}
+
+header img {
+  height: 40px;
+  width: 100px;
+  padding-top: 15px;
+}
+
+.side-bar {
+  width: 20%;
+  position: fixed;
+  right: 0;
+  height: 100%;
+}
+
+.side-contents {
+  padding-left:16%;
+}
+
+.side-contents h1 img{
+  height: 22.42px;
+  width: 87px;
+}
+
+.side-contents h1 {
+  padding: 25px 0 50px 0;
+}
+
+.side-nav a {
+  font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+  font-size: 14px;
+}
+
+.side-nav a:hover {
+  text-decoration: underline;
+}
+
+.side-nav li:not(:last-child){
+  margin-bottom: 20px;
+}
+
+.side-icons {
+  margin-top: 60px;
+  display: flex;
+}
+
+.side-icons li{
+  margin-right: 15px;
+}
+
+.side-icons img {
+  width:20px;
+  height: auto;
+}
+
+.side-icons a:hover {
+  opacity: 0.8;
+}
+
+.contents {
+  width: 80%;
+}
+
+.top-photo {
+  background-image: url(../images/mainImg.jpg);
+  width: 100%;
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.content-title {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.content-title span{
+  border-bottom: 3px solid #fff;
+  padding-bottom: 20px;
+}
+
+.message {
+  width: 100%;
+}
+
+.message p {
+  font-size: 14px;
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.message-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.message-list li:not(.message-imageBig){
+  width: 33.33%;
+  height: auto;
+}
+
+.message-imageBig {
+  width: 100%;
+}
+
+.brand {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 50px;
+}
+
+.brand-listItem {
+  padding: 0 30px;
+  width: 100%;
+}
+
+.brand-listText {
+  margin-top: 20px;
+}
+
+.project {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 50px;
+}
+
+.project-article {
+  clear: both;
+  overflow: hidden;
+}
+
+.project-list img {
+  float: left;
+}
+
+.project-list li:first-child{
+  margin-bottom: 50px;
+}
+
+.project-listImg {
+  width: 375px;
+  height: 225px;
+  margin: 10px 20px 20px;
+}
+
+.company-address {
+  line-height: 2.5;
+}
+
+.googlemap {
+  width: 60%;
+  padding-bottom: 25%;
+  position: relative;
+}
+
+iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  margin-top: 300px;
+  margin-bottom: 80px;
+  width: 80%;
+}
+
+footer p {
+  text-align: center;
+  font-size: 12px;
+}
+
+footer a {
+  color: #0000ff
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
